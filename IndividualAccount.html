@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./IndividualAccount.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sansation:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="individual-account">
+      <img
+        class="individual-account-child"
+        alt=""
+        src="./public/rectangle-81.svg"
+      /><img
+        class="individual-account-item"
+        alt=""
+        src="./public/rectangle-91@2x.png"
+      /><b class="welcome-to-sme1">Welcome to SME Fund Ke</b
+      ><b class="create-new-account">Create new account</b>
+      <div class="fill-in-the">Fill in the details to create your account</div>
+      <div class="textarea22">
+        <div class="group-form22">
+          <div class="content22"><b class="content-label22">ID Number</b></div>
+          <div class="error22"><b class="content-body22">Error message</b></div>
+          <input class="building-blockstext-inputinp22" type="text" />
+        </div>
+        <b class="content-hint42">You can enter up to 200 characters</b>
+      </div>
+      <div class="textarea23">
+        <div class="group-form22">
+          <div class="content23"><b class="content-label22">Password</b></div>
+          <div class="error22"><b class="content-body22">Error message</b></div>
+          <input class="building-blockstext-inputinp22" type="text" />
+        </div>
+        <b class="content-hint42">You can enter up to 200 characters</b>
+      </div>
+      <div class="textarea24">
+        <div class="group-form22">
+          <div class="content23">
+            <b class="content-label22">Confirm Password</b>
+          </div>
+          <div class="error22"><b class="content-body22">Error message</b></div>
+          <input class="building-blockstext-inputinp22" type="text" />
+        </div>
+        <b class="content-hint42">You can enter up to 200 characters</b>
+      </div>
+      <div class="textarea25">
+        <div class="group-form25">
+          <div class="content25">
+            <b class="content-label22">Full Name</b
+            ><b class="content-hint42">Hint text</b>
+          </div>
+          <div class="error22"><b class="content-body22">Error message</b></div>
+          <input class="building-blockstext-inputinp22" type="text" />
+        </div>
+        <b class="content-hint46">As it appears on your ID</b>
+      </div>
+      <button class="button20" id="button">
+        <b class="content-text20">Create Account</b
+        ><img class="icon-start18" alt="" src="./public/icon-start18.svg" />
+      </button>
+      <div class="logo9">
+        <img class="logo-child6" alt="" src="./public/ellipse-143.svg" /><img
+          class="sugar-cube-icon9"
+          alt=""
+          src="./public/sugar-cube3@2x.png"
+        />
+      </div>
+      <div class="by-continuing-you1">
+        By continuing you agree to the SME Fund Kenya Terms and Conditions of
+        use
+      </div>
+      <div
+        class="already-registered-login-container"
+        id="alreadyRegisteredLogin"
+      >
+        <span class="already-registered-login-container1"
+          ><span class="already-registered">Already registered? </span
+          ><span class="login-with-an"
+            >Login with an existing account</span
+          ></span
+        >
+      </div>
+    </div>
+
+    <script>
+      var button = document.getElementById("button");
+      if (button) {
+        button.addEventListener("click", function (e) {
+          window.location.href = "./ApplicationDetails.html";
+        });
+      }
+      
+      var alreadyRegisteredLogin = document.getElementById("alreadyRegisteredLogin");
+      if (alreadyRegisteredLogin) {
+        alreadyRegisteredLogin.addEventListener("click", function (e) {
+          window.location.href = "./IndividualLogin.html";
+        });
+      }
+      </script>
+  </body>
+</html>

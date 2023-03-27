@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./IndividualLogin.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sansation:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="individual-login">
+      <img
+        class="individual-login-child"
+        alt=""
+        src="./public/rectangle-8.svg"
+      /><img
+        class="individual-login-item"
+        alt=""
+        src="./public/rectangle-91@2x.png"
+      />
+      <div class="logo8">
+        <img class="logo-child5" alt="" src="./public/ellipse-143.svg" /><img
+          class="sugar-cube-icon8"
+          alt=""
+          src="./public/sugar-cube3@2x.png"
+        />
+      </div>
+      <b class="login-to-your">Login To Your Account</b
+      ><b class="welcome-back-millie">Welcome back Millie</b>
+      <div class="enter-the-details">
+        Enter the details below to continue your application!
+      </div>
+      <div class="textarea20">
+        <div class="group-form20">
+          <div class="content20"><b class="content-label20">ID Number</b></div>
+          <div class="error20"><b class="content-body20">Error message</b></div>
+          <input class="building-blockstext-inputinp20" type="number" />
+        </div>
+        <b class="content-hint40">You can enter up to 200 characters</b>
+      </div>
+      <button class="button19" id="button">
+        <b class="content-text19">LOGIN</b
+        ><img class="icon-start17" alt="" src="./public/icon-start17.svg" />
+      </button>
+      <div class="textarea21">
+        <div class="group-form20">
+          <div class="content21"><b class="content-label20">Password</b></div>
+          <div class="error20"><b class="content-body20">Error message</b></div>
+          <input class="building-blockstext-inputinp20" type="password" />
+        </div>
+        <b class="content-hint40">You can enter up to 200 characters</b>
+      </div>
+      <div class="by-continuing-you">
+        By continuing you agree to the SME Fund Kenya Terms and Conditions of
+        use
+      </div>
+      <div class="not-registered-create-container" id="notRegisteredCreate">
+        <span class="not-registered-create-container1"
+          ><span class="not-registered">Not registered? </span
+          ><span class="create-an-account">Create an account</span></span
+        >
+      </div>
+    </div>
+
+    <script>
+      var button = document.getElementById("button");
+      if (button) {
+        button.addEventListener("click", function (e) {
+          window.location.href = "./ApplicationDetails.html";
+        });
+      }
+      
+      var notRegisteredCreate = document.getElementById("notRegisteredCreate");
+      if (notRegisteredCreate) {
+        notRegisteredCreate.addEventListener("click", function (e) {
+          window.location.href = "./IndividualAccount.html";
+        });
+      }
+      </script>
+  </body>
+</html>

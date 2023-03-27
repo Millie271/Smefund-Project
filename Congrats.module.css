@@ -1,0 +1,243 @@
+.congrats-child {
+  position: absolute;
+  top: 132px;
+  left: 45px;
+  border-radius: var(--br-5xl);
+  background-color: var(--background);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1350px;
+  height: 767px;
+}
+.your-application-is {
+  position: absolute;
+  top: 498px;
+  left: 550px;
+  font-size: var(--font-size-5xl);
+  line-height: 40px;
+  text-align: center;
+}
+.we-are-currently {
+  position: absolute;
+  top: 562px;
+  left: 366px;
+  line-height: 30px;
+  color: var(--gray-gray-5);
+  text-align: center;
+  display: inline-block;
+  width: 709px;
+  height: 81px;
+}
+.content-text6 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 32px;
+  font-family: var(--font-inter);
+  color: var(--background);
+  text-align: center;
+}
+.icon-start4 {
+  position: relative;
+  width: 16px;
+  height: 20px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: none;
+}
+.button6 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-6xs) var(--padding-xs) var(--padding-7xs);
+  background-color: var(--other-green);
+  position: absolute;
+  top: 760px;
+  left: 617px;
+  box-shadow: 0-2px 0#002d18 inset;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.congrats-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--background);
+  width: 1440px;
+  height: 103px;
+}
+.loan-application {
+  position: absolute;
+  top: 22px;
+  left: 134px;
+  font-size: var(--font-size-13xl);
+  line-height: 50px;
+}
+.logo-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+}
+.sugar-cube-icon2 {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+.image-8-icon,
+.logo2 {
+  position: absolute;
+  top: 22px;
+  left: 50px;
+  width: 50px;
+  height: 50px;
+}
+.image-8-icon {
+  top: 220px;
+  left: 541px;
+  width: 359px;
+  height: 179px;
+  object-fit: cover;
+}
+.congrats-inner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-mediumseagreen);
+  width: 1440px;
+  height: 485px;
+}
+.contact-us1,
+.quick-links2 {
+  position: absolute;
+  bottom: 375px;
+  font-size: var(--font-size-xl);
+  line-height: 40px;
+}
+.contact-us1 {
+  left: 1235px;
+  text-align: right;
+}
+.quick-links2 {
+  left: 834px;
+}
+.p2 {
+  margin: 0;
+}
+.copyright-20161,
+.div1,
+.infosmefundgoke1 {
+  position: absolute;
+  color: var(--color-black);
+}
+.div1 {
+  bottom: 284px;
+  left: 1164px;
+  line-height: 30px;
+  text-align: right;
+  display: inline-block;
+  width: 181px;
+  height: 87px;
+}
+.copyright-20161,
+.infosmefundgoke1 {
+  line-height: 40px;
+}
+.copyright-20161 {
+  bottom: 12px;
+  left: 36px;
+  font-size: var(--font-size-xl);
+}
+.infosmefundgoke1 {
+  bottom: 252px;
+  left: 1144px;
+  text-align: right;
+  display: inline-block;
+  width: 201px;
+  height: 40px;
+}
+.sme-fund-kenya4 {
+  position: absolute;
+  top: 994px;
+  left: 132px;
+  font-size: var(--font-size-5xl);
+  line-height: 40px;
+  display: flex;
+  color: var(--color-darkslategray);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 275px;
+  height: 68px;
+}
+.sme-fund-kenya5 {
+  position: absolute;
+  top: 1063px;
+  left: 167px;
+  line-height: 24px;
+  font-weight: 300;
+  color: var(--color-black);
+  display: inline-block;
+  width: 331px;
+  height: 221px;
+}
+.home2 {
+  position: absolute;
+  top: 1062px;
+  left: 834px;
+  line-height: 25px;
+}
+.about-sme-fund2,
+.application2,
+.how-it-works4 {
+  position: absolute;
+  top: 1102px;
+  left: 834px;
+  line-height: 25px;
+}
+.application2,
+.how-it-works4 {
+  top: 1142px;
+}
+.application2 {
+  top: 1182px;
+}
+.ellipse-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+}
+.sugar-cube-icon3 {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+}
+.logo3 {
+  position: absolute;
+  top: 994px;
+  left: 45px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.congrats {
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  width: 100%;
+  height: 1422px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--text-primary);
+  font-family: var(--font-inter);
+}

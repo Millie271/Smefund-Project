@@ -1,0 +1,496 @@
+.upload-solo-docs-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--background);
+  width: 1440px;
+  height: 103px;
+}
+.loan-application1 {
+  position: absolute;
+  top: 34px;
+  left: 131px;
+  font-size: var(--font-size-13xl);
+  line-height: 50px;
+}
+.logo-child1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+}
+.sugar-cube-icon4 {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+.logo4 {
+  position: absolute;
+  top: 34px;
+  left: 45px;
+  width: 50px;
+  height: 50px;
+}
+.complete-application,
+.ensure-you-have {
+  position: absolute;
+  left: 112px;
+  line-height: 40px;
+}
+.complete-application {
+  top: 157px;
+  font-size: var(--font-size-5xl);
+}
+.ensure-you-have {
+  top: 205px;
+  color: var(--color-black);
+  display: inline-block;
+  width: 547px;
+  height: 50px;
+}
+.upload-solo-docs-item {
+  position: absolute;
+  top: 309px;
+  left: 95px;
+  border-radius: 0 0 var(--br-5xl) var(--br-5xl);
+  background-color: var(--background);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1250px;
+  height: 1452px;
+}
+.upload-documents1 {
+  position: absolute;
+  top: 353px;
+  left: 627px;
+  font-size: var(--font-size-xl);
+  line-height: 40px;
+}
+.entry-field-child,
+.entry-field-item {
+  position: absolute;
+  border-radius: var(--br-3xs);
+}
+.entry-field-child {
+  height: 50%;
+  width: 79.37%;
+  top: 0;
+  right: 20.63%;
+  bottom: 50%;
+  left: 0;
+  background-color: var(--color-whitesmoke);
+}
+.entry-field-item {
+  top: -39px;
+  left: 41px;
+  background-color: var(--background);
+  width: 189px;
+  height: 52px;
+}
+.bank-statement {
+  position: absolute;
+  height: 37.14%;
+  width: 37.62%;
+  top: -18.57%;
+  left: 7.3%;
+  line-height: 24px;
+  display: inline-block;
+}
+.entry-field {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.click-here-to {
+  position: absolute;
+  height: 27.14%;
+  width: 65.56%;
+  top: 14.29%;
+  left: 13.97%;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+}
+.solidfilescloud-upload-icon {
+  position: absolute;
+  height: 36.92%;
+  width: 7.64%;
+  top: 9.29%;
+  right: 88.54%;
+  bottom: 53.79%;
+  left: 3.82%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.entry-field-parent {
+  position: absolute;
+  top: 728px;
+  left: 137px;
+  width: 630px;
+  height: 140px;
+  color: var(--gray-gray-5);
+}
+.click-here-to1 {
+  position: absolute;
+  height: 27.14%;
+  width: 66.83%;
+  top: 15%;
+  left: 12.54%;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+}
+.solidfilescloud-upload-icon1 {
+  position: absolute;
+  height: 37.14%;
+  width: 6.67%;
+  top: 10%;
+  right: 89.52%;
+  bottom: 52.86%;
+  left: 3.81%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.id {
+  position: absolute;
+  top: 518px;
+  left: 137px;
+  width: 630px;
+  height: 140px;
+  color: var(--gray-gray-5);
+}
+.click-here-to2 {
+  position: absolute;
+  height: 27.14%;
+  width: 65.4%;
+  top: 14.29%;
+  left: 13.97%;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+}
+.birth-cert {
+  position: absolute;
+  top: 518px;
+  left: 777px;
+  width: 630px;
+  height: 140px;
+  color: var(--gray-gray-5);
+}
+.entry-field-child1 {
+  position: absolute;
+  top: -39px;
+  left: 41px;
+  border-radius: var(--br-3xs);
+  background-color: var(--background);
+  width: 167px;
+  height: 52px;
+}
+.click-here-to3 {
+  position: absolute;
+  height: 27.14%;
+  width: 77.14%;
+  top: 12.86%;
+  left: 13.97%;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+}
+.solidfilescloud-upload-icon3 {
+  position: absolute;
+  height: 36.92%;
+  width: 7.64%;
+  top: 7.86%;
+  right: 88.54%;
+  bottom: 55.22%;
+  left: 3.82%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.business-plan {
+  position: absolute;
+  top: 903px;
+  left: 137px;
+  width: 630px;
+  height: 140px;
+  color: var(--gray-gray-5);
+}
+.entry-field-child3 {
+  position: absolute;
+  top: -39px;
+  left: 41px;
+  border-radius: var(--br-3xs);
+  background-color: var(--background);
+  width: 195px;
+  height: 52px;
+}
+.business-permit1 {
+  position: absolute;
+  height: 37.14%;
+  width: 27.62%;
+  top: -18.57%;
+  left: 7.3%;
+  line-height: 24px;
+  display: inline-block;
+}
+.business-permit {
+  position: absolute;
+  top: 728px;
+  left: 772px;
+  width: 630px;
+  height: 140px;
+  color: var(--gray-gray-5);
+}
+.entry-field-child5 {
+  position: absolute;
+  top: -39px;
+  left: 41px;
+  border-radius: var(--br-3xs);
+  background-color: var(--background);
+  width: 176px;
+  height: 52px;
+}
+.guarantor-id {
+  position: absolute;
+  height: 37.14%;
+  width: 24.13%;
+  top: -18.57%;
+  left: 7.3%;
+  line-height: 24px;
+  display: inline-block;
+}
+.click-here-to5 {
+  position: absolute;
+  height: 27.14%;
+  width: 54.92%;
+  top: 14.29%;
+  left: 13.97%;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+}
+.guarantor {
+  position: absolute;
+  top: 1257px;
+  left: 137px;
+  width: 630px;
+  height: 140px;
+  color: var(--gray-gray-5);
+}
+.entry-field-child7 {
+  position: absolute;
+  top: -39px;
+  left: 41px;
+  border-radius: var(--br-3xs);
+  background-color: var(--background);
+  width: 165px;
+  height: 52px;
+}
+.guarantor-id1 {
+  position: absolute;
+  height: 37.14%;
+  width: 25.4%;
+  top: -18.57%;
+  left: 7.3%;
+  line-height: 24px;
+  display: inline-block;
+}
+.click-here-to6 {
+  position: absolute;
+  height: 27.14%;
+  width: 77.14%;
+  top: 14.29%;
+  left: 13.97%;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+}
+.guarantor1 {
+  position: absolute;
+  top: 1257px;
+  left: 801px;
+  width: 630px;
+  height: 140px;
+  color: var(--gray-gray-5);
+}
+.content-text7 {
+  position: relative;
+  line-height: 32px;
+}
+.icon-start5 {
+  position: relative;
+  width: 16px;
+  height: 20px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: none;
+}
+.button7,
+.button8,
+.button9 {
+  position: absolute;
+  top: 1566px;
+  left: 282px;
+  background-color: var(--other-green);
+  box-shadow: 0-2px 0#002d18 inset;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-6xs) var(--padding-xs) var(--padding-7xs);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  text-align: center;
+  color: var(--background);
+}
+.button8,
+.button9 {
+  left: 1072px;
+}
+.button9 {
+  left: 932px;
+}
+.upload-solo-docs-inner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-mediumseagreen);
+  width: 1440px;
+  height: 485px;
+}
+.contact-us2,
+.quick-links3 {
+  position: absolute;
+  bottom: 375px;
+  font-size: var(--font-size-xl);
+  line-height: 40px;
+}
+.contact-us2 {
+  left: 1235px;
+  text-align: right;
+}
+.quick-links3 {
+  left: 834px;
+}
+.p4 {
+  margin: 0;
+}
+.copyright-20162,
+.div2,
+.infosmefundgoke2 {
+  position: absolute;
+  color: var(--color-black);
+}
+.div2 {
+  bottom: 284px;
+  left: 1164px;
+  line-height: 30px;
+  text-align: right;
+  display: inline-block;
+  width: 181px;
+  height: 87px;
+}
+.copyright-20162,
+.infosmefundgoke2 {
+  bottom: 8px;
+  left: 36px;
+  line-height: 40px;
+}
+.infosmefundgoke2 {
+  bottom: 251px;
+  left: 1144px;
+  text-align: right;
+  display: inline-block;
+  width: 201px;
+  height: 40px;
+}
+.sme-fund-kenya6 {
+  position: absolute;
+  top: 2169px;
+  left: 136px;
+  font-size: var(--font-size-5xl);
+  line-height: 40px;
+  display: flex;
+  color: var(--color-darkslategray);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 275px;
+  height: 68px;
+}
+.sme-fund-kenya7 {
+  position: absolute;
+  top: 2238px;
+  left: 167px;
+  line-height: 24px;
+  font-weight: 300;
+  color: var(--color-black);
+  display: inline-block;
+  width: 331px;
+  height: 240px;
+}
+.home3 {
+  position: absolute;
+  top: 2237px;
+  left: 834px;
+  line-height: 25px;
+}
+.about-sme-fund3,
+.application3,
+.how-it-works5 {
+  position: absolute;
+  top: 2277px;
+  left: 834px;
+  line-height: 25px;
+}
+.application3,
+.how-it-works5 {
+  top: 2317px;
+}
+.application3 {
+  top: 2357px;
+}
+.logo-child2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+}
+.sugar-cube-icon5 {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+}
+.logo5 {
+  position: absolute;
+  top: 2169px;
+  left: 45px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.upload-solo-docs {
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  width: 100%;
+  height: 2598px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--text-primary);
+  font-family: var(--font-inter);
+}
