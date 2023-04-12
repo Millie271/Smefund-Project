@@ -1,0 +1,63 @@
+body{
+    height: 100vh;
+}
+.form-control{
+    height: 45px;
+    border-radius: 3px;
+}
+#login_form{
+    height: 100vh;
+}
+.btn-primary{
+    height: 50px;
+    border-radius: 3px;
+}
+.form-group{
+    margin-bottom: 15px;
+}
+#login_form{
+    height: 100vh;
+}
+#login_form .row:not(#no-shadow){
+    height: 80%;
+    box-shadow: 3px 3px 6px rgba(0,0,0,.3);
+}
+#login_form .col-sm-5{
+    height: 100%;
+    position: relative;
+    padding: 0 !important;
+}
+#login_form .col-sm-5 img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0px 0px 0px 0px;
+}
+#login_form .col-sm-7{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+@media screen and (max-width: 580px){
+    #login_form .col-sm-7{
+        /* background-image: url(photo_2023-03-28_11-13-46.jpg); */
+        width: 100dvw !important;
+        background-position: center;
+        background-size: cover;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    #login_form .col-sm-5{
+        display: none;
+    }
+}
+.col-sm-7 form img{
+    margin: auto;
+    height: 100px;
+    width: 100px;
+}

@@ -1,21 +1,21 @@
-.landing-page-child {
-  position: absolute;
+.container- {
+  /*   position: absolute;   */
   top: 81px;
   left: 1px;
   background-color: #f9fbfc;
   width: 1439px;
   height: 6049px;
 }
-.landing-page-item {
-  position: absolute;
+.hero-image {
+  /*   position: absolute;   */
   top: 81px;
   left: 0;
   width: 1441px;
-  height: 913px;
+  height: 700px;
   object-fit: cover;
 }
 .header-child {
-  position: absolute;
+  /*   position: absolute;   */
   top: 0;
   left: 0;
   background-color: var(--background);
@@ -23,7 +23,7 @@
   height: 59px;
 }
 .home {
-  position: absolute;
+  /*   position: absolute;   */
   top: 13px;
   left: 54px;
   line-height: 25px;
@@ -32,7 +32,7 @@
   height: 46px;
 }
 .about-sme-fund {
-  position: absolute;
+  /*   position: absolute;   */
   left: 214px;
 }
 .about-sme-fund,
@@ -43,17 +43,13 @@
   cursor: pointer;
 }
 .application {
-  position: absolute;
+  /*   position: absolute;   */
   left: 454px;
 }
 .how-it-works {
   left: 634px;
 }
-.faqs,
-.header,
-.how-it-works {
-  position: absolute;
-}
+
 .faqs {
   top: 13px;
   left: 814px;
@@ -67,7 +63,7 @@
   color: var(--color-gold);
 }
 .get-financing-for {
-  position: absolute;
+  /*   position: absolute;   */
   top: 201px;
   left: 794px;
   font-size: 60px;
@@ -85,10 +81,11 @@
 }
 .blank-line {
   margin: 0;
+  padding:0px;
 }
 .turn-your-business-container {
   margin: 0;
-  position: absolute;
+  /*   position: absolute;   */
   top: 379px;
   left: 794px;
   letter-spacing: 0.01em;
@@ -108,7 +105,7 @@
   text-align: center;
 }
 .view-application-process {
-  position: absolute;
+  /*   position: absolute;   */
   top: 597px;
   left: 814px;
   font-size: var(--font-size-xs);
@@ -124,17 +121,22 @@
 }
 .icon-start {
   position: relative;
-  width: 16px;
-  height: 20px;
+  /* width: 16px;
+  height: 20px; */
   flex-shrink: 0;
   overflow: hidden;
 }
+
+.about-sme .container{
+  border-radius: 25px !important;
+}
+
 .button {
   cursor: pointer;
   border: 0;
   padding: var(--padding-6xs) var(--padding-xs) var(--padding-7xs);
   background-color: var(--other-green);
-  position: absolute;
+  /*   position: absolute;   */
   top: 779px;
   left: 869px;
   box-shadow: 0-2px 0#002d18 inset;
@@ -147,7 +149,7 @@
 }
 .choose-between-a,
 .welcome-to-sme {
-  position: absolute;
+  /*   position: absolute;   */
   top: 1024px;
   left: 580px;
   font-size: var(--font-size-xl);
@@ -166,7 +168,7 @@
   height: 64px;
 }
 .landing-page-inner {
-  position: absolute;
+  /*   position: absolute;   */
   top: 1193px;
   left: 159px;
   border-radius: 30px;
@@ -175,7 +177,7 @@
   height: 370px;
 }
 .about-the-fund {
-  position: absolute;
+  /*   position: absolute;   */
   top: 1193px;
   left: 605px;
   font-size: var(--font-size-5xl);
@@ -186,24 +188,9 @@
   width: 231px;
   height: 59px;
 }
-.line-div {
-  position: absolute;
-  top: 1244.5px;
-  left: 478.5px;
-  border-top: 1px solid var(--color-gold);
-  box-sizing: border-box;
-  width: 484px;
-  height: 1px;
-}
-.choose-your-loan {
-  margin-bottom: 0;
-}
-.choose-your-loan-package-enter {
-  margin: 0;
-  padding-left: var(--padding-2xl);
-}
+
 .sme-fund-kenya-container {
-  position: absolute;
+  /*   position: absolute;   */
   top: 1270px;
   left: 175px;
   font-size: var(--font-inherit);
@@ -216,14 +203,14 @@
   height: 268px;
 }
 .fair-and-transaparent-child {
-  position: absolute;
+  /*   position: absolute;   */
   top: 0;
   left: 0;
   width: 232px;
   height: 232px;
 }
 .last-quarter-icon {
-  position: absolute;
+  /*   position: absolute;   */
   top: 57px;
   left: 92px;
   width: 48px;
@@ -231,7 +218,7 @@
   object-fit: cover;
 }
 .fair-transparent {
-  position: absolute;
+  /*   position: absolute;   */
   top: 119px;
   left: 27px;
   line-height: 40px;
@@ -241,7 +228,7 @@
   height: 41px;
 }
 .fair-and-transaparent {
-  position: absolute;
+  /*   position: absolute;   */
   top: 1601px;
   left: 261px;
   width: 251px;
@@ -249,7 +236,7 @@
   font-size: var(--font-size-xl);
 }
 .protect-icon {
-  position: absolute;
+  /*   position: absolute;   */
   top: 57px;
   left: 93px;
   width: 48px;
@@ -257,7 +244,7 @@
   object-fit: cover;
 }
 .private-and-secure1 {
-  position: absolute;
+  /*   position: absolute;   */
   top: 119px;
   left: 22px;
   line-height: 40px;
@@ -267,7 +254,7 @@
   height: 41px;
 }
 .private-and-secure {
-  position: absolute;
+  /*   position: absolute;   */
   top: 1601px;
   left: 604px;
   width: 232px;
@@ -275,7 +262,7 @@
   font-size: var(--font-size-xl);
 }
 .low-interest1 {
-  position: absolute;
+  /*   position: absolute;   */
   top: 119px;
   left: 57px;
   line-height: 40px;
@@ -285,7 +272,7 @@
   height: 41px;
 }
 .low-interest {
-  position: absolute;
+  /*   position: absolute;   */
   top: 1601px;
   left: 942px;
   width: 232px;
@@ -293,37 +280,33 @@
   font-size: var(--font-size-xl);
 }
 .frame-empowerment-child {
-  position: absolute;
-  top: 0;
-  left: 0;
+  /*   position: absolute;   */
+  top: 351;
+  left: 50;
   background-color: var(--background);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   width: 436px;
   height: 536px;
 }
 .group-empowerment {
-  position: absolute;
-  top: 351px;
-  left: 37px;
+  /*   position: absolute;   */
+  top: 1150px;
+  left: 207px;
   line-height: 40px;
   display: inline-block;
   width: 268px;
   height: 46px;
 }
-.frame-empowerment-item {
-  position: absolute;
+.group-empowerment-image {
+  /*   position: absolute;   */
   top: 17px;
   left: 35px;
   width: 366px;
   height: 326px;
   object-fit: cover;
 }
-.content-text1,
-.we-aim-to {
-  font-size: var(--font-size-sm);
-}
-.we-aim-to {
-  position: absolute;
+.group-empowerment h5{
+  /*   position: absolute;   */
   top: 392px;
   left: 37px;
   letter-spacing: 1px;
@@ -332,21 +315,27 @@
   width: 364px;
   height: 54px;
 }
-.content-text1 {
-  position: relative;
-  line-height: 32px;
-  font-family: var(--font-inter);
-  color: var(--background);
-  text-align: center;
+.group-empowerment p{
+  /*   position: absolute;   */
+  top: 392px;
+  left: 37px;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0px;
+  line-height: 24px;
+  display: inline-block;
+  width: 364px;
+  height: 54px;
 }
+
 .button1 {
   cursor: pointer;
   border: 0;
-  padding: var(--padding-6xs) var(--padding-xs) var(--padding-7xs);
+  padding:30px;
   background-color: var(--other-green);
-  position: absolute;
+  /*   position: absolute;   */
   top: 471px;
   left: 273px;
+  bottom: 10px;
   box-shadow: 0-2px 0#002d18 inset;
   overflow: hidden;
   display: flex;
@@ -355,17 +344,33 @@
   justify-content: center;
   gap: var(--gap-3xs);
 }
-.frame-empowerment {
-  position: absolute;
-  top: 1895px;
-  left: 267px;
+.button-text {
+  position: relative;
+  line-height: 15px;
+  font:normal 16px "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: var(--background);
+  text-align: center;
+}
+
+.individual-empowerment {
+  /*   position: absolute;   */
+  top:1150px;
+  left: 700px;
   width: 436px;
   height: 536px;
   color: var(--color-black);
 }
-.grow-your-small,
+.individual-empowerment-image {
+  /*   position: absolute;   */
+  top: 17px;
+  left: 35px;
+  width: 366px;
+  height: 326px;
+  padding-top:50px;
+  object-fit: cover;
+}
 .individual-empowerment1 {
-  position: absolute;
+  /*   position: absolute;   */
   top: 351px;
   left: 40px;
   line-height: 40px;
@@ -373,20 +378,22 @@
   width: 302px;
   height: 46px;
 }
-.grow-your-small {
-  top: 392px;
-  font-size: var(--font-size-sm);
-  letter-spacing: 1px;
-  line-height: 20px;
-  width: 356px;
-  height: 54px;
+
+.individual-empowerment1 p{
+  /*   position: absolute;   */
+  top:1150px;
+  left: 751px;
+  width: 436px;
+  height: 536px;
+  color: var(--color-black);
 }
+
 .button2 {
   cursor: pointer;
   border: 0;
-  padding: var(--padding-6xs) var(--padding-xs) var(--padding-7xs);
+  padding: 20px;
   background-color: var(--other-green);
-  position: absolute;
+  /*   position: absolute;   */
   top: 471px;
   left: 283px;
   box-shadow: 0-2px 0#002d18 inset;
@@ -397,37 +404,34 @@
   justify-content: center;
   gap: var(--gap-3xs);
 }
-.individual-empowerment {
-  position: absolute;
-  top: 1895px;
-  left: 751px;
-  width: 436px;
-  height: 536px;
-  color: var(--color-black);
-}
-.rectangle-div {
-  position: absolute;
-  top: 2496px;
+/* .rectangle{
+    position: absolute;  
+  top: 1800px;
   left: 159px;
   border-radius: 12px;
   background-color: var(--background);
   width: 1123px;
   height: 402px;
+}  */
+
+.rectangles{
+  background-color: var(--background); 
 }
+
 .features-and-benefits,
 .here-is-what {
-  position: absolute;
+  /*   position: absolute;   */
   font-size: var(--font-size-xl);
   line-height: 40px;
 }
 .here-is-what {
-  top: 2514px;
+  top: 1800px;
   left: 422px;
   font-weight: 600;
   color: var(--color-black);
 }
 .features-and-benefits {
-  top: 2555px;
+  top: 1825px;
   left: 610px;
   font-weight: 500;
   display: inline-block;
@@ -436,7 +440,7 @@
 }
 .loan-amount-kes,
 .we-offer-a {
-  position: absolute;
+  /*   position: absolute;   */
   left: 88px;
   display: inline-block;
 }
@@ -457,20 +461,20 @@
   height: 54px;
 }
 .icon-dollar-circle {
-  position: absolute;
-  height: 64.44%;
-  width: 11.51%;
+  /*   position: absolute;   */
+  /* height: 64.44%;
+  width: 11.51%; */
   top: 25.56%;
   right: 88.49%;
   bottom: 10%;
   left: 0;
-  max-width: 100%;
+  /* max-width: 100%; */
   overflow: hidden;
-  max-height: 100%;
+  /* max-height: 100%; */
 }
 .loan-amount {
-  position: absolute;
-  top: 2629px;
+  /*   position: absolute;   */
+  top: 1850px;
   left: 191px;
   width: 504px;
   height: 90px;
@@ -478,7 +482,7 @@
 }
 .loan-duration-is,
 .we-offer-long {
-  position: absolute;
+  /*   position: absolute;   */
   left: 86px;
   display: inline-block;
 }
@@ -499,20 +503,20 @@
   height: 66px;
 }
 .icon-clock {
-  position: absolute;
-  height: 55.24%;
-  width: 13.3%;
+  /*   position: absolute;   */
+  /* height: 55.24%;
+  width: 13.3%; */
   top: 25.71%;
   right: 86.7%;
   bottom: 19.05%;
   left: 0;
-  max-width: 100%;
+  /* max-width: 100%; */
   overflow: hidden;
-  max-height: 100%;
+  /* max-height: 100%; */
 }
 .loan-duration {
-  position: absolute;
-  top: 2741px;
+  /*   position: absolute;   */
+  top: 1925px;
   left: 191px;
   width: 436px;
   height: 105px;
@@ -520,7 +524,7 @@
 }
 .our-aim-is,
 .quick-processing1 {
-  position: absolute;
+  /*   position: absolute;   */
   left: 86px;
   display: inline-block;
 }
@@ -541,20 +545,18 @@
   height: 76px;
 }
 .icon-timer-1 {
-  position: absolute;
-  height: 59.72%;
-  width: 11.79%;
+  /*   position: absolute;   */
   top: 19.64%;
   right: 88.21%;
   bottom: 20.63%;
   left: 0;
-  max-width: 100%;
+  /* max-width: 100%; */
   overflow: hidden;
-  max-height: 100%;
+  /* max-height: 100%; */
 }
 .quick-processing {
-  position: absolute;
-  top: 2629px;
+  /*   position: absolute;   */
+  top: 1850px;
   left: 777px;
   width: 492px;
   height: 112px;
@@ -562,7 +564,7 @@
 }
 .competitive-interest-rate,
 .we-offer-5 {
-  position: absolute;
+  /*   position: absolute;   */
   left: 86px;
   display: inline-block;
 }
@@ -583,28 +585,35 @@
   height: 52px;
 }
 .icon-percentage-circle {
-  position: absolute;
+  /*   position: absolute;   */
   height: 64.44%;
   width: 14.43%;
   top: 23.33%;
   right: 85.57%;
   bottom: 12.22%;
   left: 0;
-  max-width: 100%;
+  /* max-width: 100%; */
   overflow: hidden;
-  max-height: 100%;
+  /* max-height: 100%; */
 }
 .competitive-interest {
-  position: absolute;
-  top: 2747px;
+  /*   position: absolute;   */
+  top: 1950px;
   left: 777px;
   width: 402px;
   height: 90px;
   color: var(--color-mediumseagreen);
 }
-.requirements-child {
-  position: absolute;
-  top: 0;
+.requirement {
+  /*   position: absolute;   */
+  top: 2250px;
+  left: 160px;
+  width: 561px;
+  height: 376px;
+  font-size: var(--font-size-xl);
+}
+.requirements-child { 
+  top: 2250;
   left: 0;
   border-radius: var(--br-3xs);
   background-color: #93e396;
@@ -612,14 +621,14 @@
   height: 376px;
 }
 .requirements1 {
-  position: absolute;
+  /*   position: absolute;   */
   top: 19px;
   left: 36px;
   line-height: 40px;
   font-weight: 500;
 }
-.kyc-documents-eg-container {
-  position: absolute;
+.kyc-documents-container {
+  /*   position: absolute;   */
   top: 68px;
   left: 28px;
   font-size: var(--font-inherit);
@@ -631,7 +640,7 @@
   height: 267px;
 }
 .requirements-item {
-  position: absolute;
+  /*   position: absolute;   */
   top: 55.5px;
   left: 32.5px;
   border-top: 1px solid var(--color-gold);
@@ -639,16 +648,17 @@
   width: 469px;
   height: 1px;
 }
-.requirements {
-  position: absolute;
-  top: 2990px;
-  left: 160px;
-  width: 561px;
-  height: 376px;
-  font-size: var(--font-size-xl);
+
+.choose-your-loan {
+  margin-bottom: 0;
 }
+.choose-your-loan-package-enter {
+  margin: 0;
+  padding-left: var(--padding-2xl);
+}
+
 .securities-child {
-  position: absolute;
+  /*   position: absolute;   */
   top: 0;
   left: 0;
   border-radius: var(--br-5xl);
@@ -659,7 +669,7 @@
 }
 .securities1,
 .title-deeds-log-container {
-  position: absolute;
+  /*   position: absolute;   */
   top: 10px;
   left: 31px;
   line-height: 40px;
@@ -674,7 +684,7 @@
   width: 235px;
 }
 .securities-item {
-  position: absolute;
+  /*   position: absolute;   */
   top: 59.5px;
   left: 30.5px;
   border-top: 1px solid var(--color-gold);
@@ -683,8 +693,8 @@
   height: 1px;
 }
 .securities {
-  position: absolute;
-  top: 2990px;
+  /*   position: absolute;   */
+  top: 2250px;
   left: 863px;
   width: 333px;
   height: 312px;
@@ -692,7 +702,7 @@
   color: var(--color-black);
 }
 .empower-your-chama-child {
-  position: absolute;
+  /*   position: absolute;   */
   top: 0;
   left: 2px;
   width: 1444px;
@@ -701,7 +711,7 @@
 }
 .at-sme-fund,
 .empower-your-chama1 {
-  position: absolute;
+  /*   position: absolute;   */
   display: inline-block;
 }
 .empower-your-chama1 {
@@ -726,7 +736,7 @@
   border: 0;
   padding: var(--padding-6xs) var(--padding-xs) var(--padding-7xs);
   background-color: var(--other-green);
-  position: absolute;
+  /*   position: absolute;   */
   top: 268px;
   left: 642px;
   box-shadow: 0-2px 0#002d18 inset;
@@ -738,8 +748,9 @@
   gap: var(--gap-3xs);
 }
 .empower-your-chama {
-  position: absolute;
-  top: 3456px;
+  /*   position: absolute;   */
+  top: 26
+  50px;
   left: -2px;
   width: 1444px;
   height: 490px;
@@ -747,7 +758,7 @@
   color: var(--color-black);
 }
 .how-it-works-child {
-  position: absolute;
+  /*   position: absolute;   */
   top: 0;
   left: 0;
   background-color: #94ff98;
@@ -755,7 +766,7 @@
   height: 1590px;
 }
 .how-it-works2 {
-  position: absolute;
+  /*   position: absolute;   */
   top: 11px;
   left: 576px;
   font-size: var(--font-size-5xl);
@@ -766,7 +777,7 @@
 }
 .step-1-choose-container,
 .to-get-started {
-  position: absolute;
+  /*   position: absolute;   */
   top: 104px;
   left: 652px;
   line-height: 40px;
@@ -783,7 +794,7 @@
 }
 .step-2-fill-container,
 .we-need-to {
-  position: absolute;
+  /*   position: absolute;   */
   top: 399px;
   left: 144px;
   line-height: 40px;
@@ -802,7 +813,7 @@
 }
 .next-you-enter,
 .step-3-fill-container {
-  position: absolute;
+  /*   position: absolute;   */
   top: 727px;
   left: 661px;
   line-height: 40px;
@@ -820,7 +831,7 @@
 }
 .step-4-upload-container,
 .to-complete-your {
-  position: absolute;
+  /*   position: absolute;   */
   top: 1060px;
   left: 139px;
   line-height: 40px;
@@ -838,7 +849,7 @@
   height: 220px;
 }
 .how-it-works-item {
-  position: absolute;
+  /*   position: absolute;   */
   top: 59.5px;
   left: 506.5px;
   border-top: 1px solid var(--color-gold);
@@ -847,7 +858,7 @@
   height: 1px;
 }
 .how-it-works1 {
-  position: absolute;
+  /*   position: absolute;   */
   top: 3946px;
   left: 68px;
   width: 1304px;
@@ -856,7 +867,7 @@
   color: var(--color-black);
 }
 .grace-child {
-  position: absolute;
+  /*   position: absolute;   */
   top: 0;
   left: 0;
   border-radius: var(--br-5xl);
@@ -865,7 +876,7 @@
   height: 332px;
 }
 .grace-item {
-  position: absolute;
+  /*   position: absolute;   */
   top: 30px;
   left: 205px;
   width: 133px;
@@ -874,7 +885,7 @@
 }
 .grace1,
 .with-the-help {
-  position: absolute;
+  /*   position: absolute;   */
   top: 255px;
   left: 243px;
   line-height: 25px;
@@ -887,7 +898,7 @@
   width: 453px;
 }
 .grace {
-  position: absolute;
+  /*   position: absolute;   */
   top: 5605px;
   left: 129px;
   width: 547px;
@@ -895,7 +906,7 @@
   font-size: var(--font-size-lgi);
 }
 .mathew-item {
-  position: absolute;
+  /*   position: absolute;   */
   top: 12px;
   left: 213px;
   width: 133px;
@@ -904,7 +915,7 @@
 }
 .mathew1,
 .thanks-to-the {
-  position: absolute;
+  /*   position: absolute;   */
   top: 261px;
   left: 252px;
   line-height: 25px;
@@ -918,7 +929,7 @@
   width: 492px;
 }
 .mathew {
-  position: absolute;
+  /*   position: absolute;   */
   top: 5605px;
   left: 769px;
   width: 547px;
@@ -926,7 +937,7 @@
   font-size: var(--font-size-lgi);
 }
 .landing-page-child1 {
-  position: absolute;
+  /*   position: absolute;   */
   bottom: 0;
   left: 0;
   background-color: var(--color-mediumseagreen);
@@ -934,7 +945,7 @@
   height: 485px;
 }
 .contact-us {
-  position: absolute;
+  /*   position: absolute;   */
   bottom: 124px;
   left: 91px;
   font-size: var(--font-size-xl);
@@ -943,7 +954,7 @@
 }
 .div,
 .infosmefundgoke {
-  position: absolute;
+  /*   position: absolute;   */
   bottom: 71px;
   left: 20px;
   line-height: 30px;
@@ -959,7 +970,7 @@
   height: 40px;
 }
 .contact-details-base {
-  position: absolute;
+  /*   position: absolute;   */
   top: 6083px;
   left: 1144px;
   width: 201px;
@@ -969,7 +980,7 @@
 }
 .home1,
 .quick-links1 {
-  position: absolute;
+  /*   position: absolute;   */
   left: 0;
 }
 .home1 {
@@ -984,7 +995,7 @@
 .about-sme-fund1,
 .application1,
 .how-it-works3 {
-  position: absolute;
+  /*   position: absolute;   */
   top: 84px;
   left: 0;
   line-height: 25px;
@@ -998,7 +1009,7 @@
 }
 .quick-links {
   text-decoration: none;
-  position: absolute;
+  /*   position: absolute;   */
   top: 6083px;
   left: 769px;
   width: 150px;
@@ -1006,7 +1017,7 @@
   color: inherit;
 }
 .sme-fund-kenya1 {
-  position: absolute;
+  /*   position: absolute;   */
   top: 0;
   left: 121px;
   line-height: 40px;
@@ -1017,7 +1028,7 @@
   height: 68px;
 }
 .sme-fund-kenya2 {
-  position: absolute;
+  /*   position: absolute;   */
   top: 69px;
   left: 122px;
   font-size: var(--font-size-base);
@@ -1030,7 +1041,7 @@
   height: 202px;
 }
 .sugar-cube-icon {
-  position: absolute;
+  /*   position: absolute;   */
   top: 2px;
   left: 2px;
   width: 96px;
@@ -1039,7 +1050,7 @@
 }
 .logo,
 .sme-fund-base {
-  position: absolute;
+  /*   position: absolute;   */
   top: 0;
   left: 0;
   width: 100px;
@@ -1055,7 +1066,7 @@
   color: var(--color-darkslategray);
 }
 .copyright-2016 {
-  position: absolute;
+  /*   position: absolute;   */
   bottom: 13px;
   left: 36px;
   font-size: var(--font-size-mini);
@@ -1063,7 +1074,7 @@
   color: var(--color-black);
 }
 .landing-page-child2 {
-  position: absolute;
+  /*   position: absolute;   */
   top: 0;
   left: 0;
   background-color: var(--background);
@@ -1071,7 +1082,7 @@
   height: 81px;
 }
 .sme-fund-kenya3 {
-  position: absolute;
+  /*   position: absolute;   */
   top: 18px;
   left: 103px;
   font-size: var(--font-size-11xl);
@@ -1091,7 +1102,7 @@
   border: 0;
   padding: var(--padding-5xs) var(--padding-xs) var(--padding-6xs);
   background-color: var(--other-green);
-  position: absolute;
+  /*   position: absolute;   */
   top: 21px;
   left: 1205px;
   box-shadow: 0-2px 0#002d18 inset;
@@ -1106,7 +1117,7 @@
   line-height: 25px;
 }
 .button5 {
-  position: absolute;
+  /*   position: absolute;   */
   top: 21px;
   left: 1078px;
   background-color: var(--color-cornflowerblue);
@@ -1121,14 +1132,14 @@
   text-align: center;
 }
 .logo-item {
-  position: absolute;
+  /*   position: absolute;   */
   top: 0;
   left: 0;
   width: 42px;
   height: 42px;
 }
 .sugar-cube-icon1 {
-  position: absolute;
+  /*   position: absolute;   */
   top: 0.84px;
   left: 0.84px;
   width: 40.32px;
@@ -1136,7 +1147,7 @@
   object-fit: cover;
 }
 .logo1 {
-  position: absolute;
+  /*   position: absolute;   */
   top: 21px;
   left: 46px;
   width: 42px;
@@ -1146,10 +1157,63 @@
   position: relative;
   background-color: var(--color-whitesmoke);
   width: 100%;
-  height: 6498px;
   overflow-x: auto;
   text-align: left;
   font-size: var(--font-size-base);
   color: var(--text-primary);
   font-family: var(--font-inter);
+}
+
+.content-main-section{
+  position: relative;
+  background-image: url(images/Heroimage.jpg);
+  background-color: red;
+}
+
+
+button.button2,button.button1{
+  height: 50px !important;
+}
+#bernefits .img_cont{
+  width: 100px !important;
+  height: 100% !important;
+}
+#bernefits img{
+  width: 60px !important;
+  height: 60px !important;
+  object-fit: scale-down;
+  margin-right: 10px;
+  max-width: unset !important;
+  max-height: unset !important;
+}
+.rectangles{
+  background-color: #FFFFFF;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.empower-your-chama{
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100dvw;
+  overflow: hidden;
+}
+img.empower-your-chama-child{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.at-sme-fund{
+  position: absolute;
+  height: fit-content;
+  width: fit-content;
+  margin: auto;
+  /* top: 10%;
+  bottom: 10%; */
+  z-index: 43534654654;
 }

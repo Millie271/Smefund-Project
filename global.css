@@ -1,6 +1,8 @@
 body {
   margin: 0;
   line-height: normal;
+  background-color:#f9fafc;
+  font: normal 16px Arial, Helvetica, sans-serif;
 }
 
 :root {
@@ -51,3 +53,137 @@ body {
   --br-5xl: 24px;
   --br-3xs: 10px;
 }
+/* new */
+.navbar ul li{
+  list-style: none;
+  display: inline;
+}
+.navbar ul li:not(:last-child){
+  margin-right: 16px;
+}
+.navbar ul li a{
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--color-gold);
+  transition: all 0.3s ease-in-out;
+  padding: 5px;
+  border-color: var(--color-mediumseagreen);
+}
+.navbar ul li a:hover:not(.nav-buttons li a){
+  color: var(--color-gold);
+  border-bottom: 2px solid var(--color-mediumseagreen);
+}
+.nav-buttons button{
+  border: none;
+  background-color: #00703c;
+  color: #fff;
+  height: 40px;
+  min-width: 70px;
+  padding: 10px;
+}
+.wrapper-container{
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+}
+.hero-content-section .container{
+  height: 70vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.wrapper-container{
+  width: 60%;
+  margin: auto;
+  margin-right: 0;
+  padding:50px;
+}
+.wrapper-container h1{
+  font-weight: 800;
+}
+.landing-page .content{
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.hero-content-section button{
+  border: none;
+  background-color: #00703c;
+  color: #fff;
+  padding: 30px;
+  height: 30px;
+  outline: none;
+  margin-top: 10px;
+}
+.welcome-section .container{
+  height: 70vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.welcome-section h2{
+  position: absolute;
+  top: 1024px;
+  left: 580px;
+  font-size: var(--font-size-xl);
+  line-height: 40px;
+  font-weight: 600;
+}
+.welcome-section p{
+  top: 1070px;
+  left: 324px;
+  line-height: 24px;
+  font-weight: 300;
+  color: var(--color-mediumseagreen);
+  text-align: center;
+  display: inline-block;
+  width: 801px;
+  height: 64px;
+}
+.about-sme li{
+  list-style: none;
+}
+.about-sme .container{
+  border-radius: 25px !important;
+  background-color: #4ecb71;
+}
+.frame-empowerment-child button{
+  border: none;
+  background-color: #00703c;
+  color: #fff;
+  padding: 30px;
+  height: 30px;
+  outline: none;
+  margin: 10px;
+
+}
+
+.gallery-container {
+  top:250px;
+  height: 500px; /* Set a fixed height or percentage height based on your layout */
+  overflow: hidden; /* Hide any overflow if the gallery is taller than the container */
+}
+
+.gallery {
+  top:2750px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  height: 100%; /* Set the gallery height to 100% of the container height */
+}
+
+.gallery-item {
+  top:2350px;
+  flex: 1 0 250px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
