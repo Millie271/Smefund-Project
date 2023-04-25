@@ -1,0 +1,55 @@
+.container {
+	display: flex;
+	justify-content: space-between;
+	margin: 50px;
+}
+
+.package {
+	flex-basis: 30%;
+	background-color: #F9D78C; /* yellow */
+	padding: 30px;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.package h2 {
+	font-size: 28px;
+	color: #333;
+	margin-top: 0;
+}
+
+.package p {
+	font-size: 18px;
+	line-height: 1.5;
+	color: #666;
+	margin-bottom: 30px;
+}
+
+.package span {
+	display: block;
+	font-size: 24px;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+.package.basic {
+	background-color: #A2D39C; /* green */
+}
+
+.package.premium {
+	background-color: #8DB3E2; /* blue */
+}
+
+.package .price {
+	font-size: 36px;
+	color: #333;
+	margin-top: 30px;
+	font-weight: bold;
+}
+
+.package .price small {
+	font-size: 20px;
+	color: #666;
+	font-weight: normal;
+}

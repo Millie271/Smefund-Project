@@ -1,3 +1,23 @@
+.navbar ul li{
+  list-style: none;
+  display: inline;
+}
+.navbar ul li:not(:last-child){
+  margin-right: 16px;
+}
+.navbar ul li a{
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--color-gold);
+  transition: all 0.3s ease-in-out;
+  padding: 5px;
+  border-color: var(--color-mediumseagreen);
+}
+.navbar ul li a:hover:not(.nav-buttons li a){
+  color: var(--color-gold);
+  border-bottom: 2px solid var(--color-mediumseagreen);
+}
 .congrats-child {
   position: absolute;
   top: 132px;
@@ -241,3 +261,6 @@
   color: var(--text-primary);
   font-family: var(--font-inter);
 }
+
+
+

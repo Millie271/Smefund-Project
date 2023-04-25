@@ -1,3 +1,36 @@
+<?php
+
+@include 'config.php';
+if(isset($_POST['submit'])){
+
+    $name = mysqli_real_escape_string($conn, $_POST['username']);
+    $id_no = mysqli_real_escape_string($conn, $_POST['identification']);
+    $pass = md5( $_POST['password']);
+    $cpass = md5( $_POST['cpassword']);
+
+    $select="SELECT * FROM user_form WHERE identification = '$id_no' && password = '$pass'";
+    $result = mysqli_query($conn, $select);
+
+    if(mysqli_num_rows($result) > 0){
+
+        $error[] ='user already exists';
+    }else{
+
+        if($pass != $cpass){
+            $error[]='password not matched!';
+        }else {
+            $insert ="INSERT INTO user_form (username, identification, password) VALUES ('$name,'$id_no','$pass')";
+        mysqli_query($conn, $insert);
+        header("Location:loginpage.php");
+        }
+
+    }
+
+
+};
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +49,20 @@
                 <h1>Register to create an account</h1>
             </div>
             <div class="col-sm-7 h-100">
+            
                 <form action="" method="post" class="m-auto">
+
+<?php 
+if(isset($error)){
+foreach($error as $error){
+    echo '<span class="error-msg">'.$error.'</span>';
+};
+
+};
+
+?>
+
+
                     <div class="col-sm-12 d-flex justify-content-around">
                         <img src="SMEFund logo.png" alt="logo" class="m-auto" align-items="left">
                     </div>
@@ -42,7 +88,7 @@
                         </div>
                         <div class="form-group col-sm-6">
                             <label for="confirm password">Confirm Password</label>
-                            <input type="password" name="username" id="username" class="form-control" placeholder="  ">
+                            <input type="password" name="cpassword" id="cpassword" class="form-control" placeholder="  ">
                         </div>
                     </div>
                     <small class="terms " >
@@ -50,11 +96,12 @@
                         use
                     </small>
                     <div class="form-group mt-2">
-                        <input type="submit" value="Create Account" class="btn btn-primary w-100">
+                        <a href="04_ApplicationDetails.html">
+                        <input type="submit" value="Create Account" class="btn btn-primary w-100"></a>
                     </div>
                     
                     <div class="form-group">
-                        <p>Already registered? <a href="">Login instead</a></p>
+                        <p>Already registered? <a href="02_LoginPage.html">Login instead</a></p>
                     </div>
                 </form>
             </div>

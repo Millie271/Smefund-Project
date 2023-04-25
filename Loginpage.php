@@ -1,24 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Login Page</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-    <div class="login-box">
-        <h1>Login</h1>
-        <form method="POST">
-            <label for="username">Username:</label>
-            <input type="text" name="username" required><br><br>
-
-            <label for="password">Password:</label>
-            <input type="password" name="password" required><br><br>
-
-            <input type="submit" value="Login">
-        </form>
-    </div>
-</body>
-</html>
 
 <?php
 
@@ -34,9 +13,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         // Connect to the database
         // Replace the placeholders with your own database credentials
         $host = "localhost";
-        $db_username = "your_username";
-        $db_password = "your_password";
-        $database = "your_database_name";
+        $db_username = "root";
+        $db_password = "";
+        $database = "smefund-project";
         
         try {
             $pdo = new PDO("mysql:host=$host;dbname=$database", $db_username, $db_password);

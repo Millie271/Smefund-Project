@@ -626,18 +626,20 @@
   left: 36px;
   line-height: 40px;
   font-weight: 500;
+  padding-left: 20px;
 }
 .kyc-documents-container {
   /*   position: absolute;   */
   top: 68px;
   left: 28px;
-  font-size: var(--font-inherit);
+  font-size: 16px;
   line-height: 40px;
-  font-family: var(--font-inherit);
+  font-family: Arial, Helvetica, sans-serif;
   color: var(--color-black);
   display: inline-block;
   width: 512px;
   height: 267px;
+  padding-left: 20px;
 }
 .requirements-item {
   /*   position: absolute;   */
@@ -647,6 +649,7 @@
   box-sizing: border-box;
   width: 469px;
   height: 1px;
+  padding-left: 20px;
 }
 
 .choose-your-loan {
@@ -672,12 +675,13 @@
   /*   position: absolute;   */
   top: 10px;
   left: 31px;
-  line-height: 40px;
+  line-height: 30px;
   font-weight: 500;
+  padding-left: 20px;
 }
 .title-deeds-log-container {
   top: 89px;
-  font-size: var(--font-size-xl);
+  font-size: 20px;
   font-weight: 600;
   color: var(--color-mediumseagreen);
   display: inline-block;
@@ -701,7 +705,7 @@
   font-size: var(--font-size-13xl);
   color: var(--color-black);
 }
-.empower-your-chama-child {
+.empower-your-chama-image {
   /*   position: absolute;   */
   top: 0;
   left: 2px;
@@ -733,19 +737,19 @@
 }
 .button3 {
   cursor: pointer;
-  border: 0;
-  padding: var(--padding-6xs) var(--padding-xs) var(--padding-7xs);
+  border: 50px;
+  padding: 10px;
   background-color: var(--other-green);
   /*   position: absolute;   */
   top: 268px;
   left: 642px;
-  box-shadow: 0-2px 0#002d18 inset;
+  /*box-shadow: 0-2px 0#002d18 inset;*/
   overflow: hidden;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: var(--gap-3xs);
+  gap: 57px;
 }
 .empower-your-chama {
   /*   position: absolute;   */
@@ -757,26 +761,48 @@
   font-size: var(--font-size-13xl);
   color: var(--color-black);
 }
+
+.how-it-works-item {
+  /*   position: absolute;   */
+  top: 59.5px;
+  left: 506.5px;
+  border-top: 1px solid var(--color-gold);
+  box-sizing: border-box;
+  width: 292px;
+  height: 1px;
+  margin-left: 500px;
+}
+.how-it-works1 {
+  /*   position: absolute;   */
+  top: 3946px;
+  left: 68px;
+  /* width: 1304px; */
+  /* height: 1590px; */
+  /* font-size: var(--font-size-xl); */
+  color: var(--color-black);
+}
 .how-it-works-child {
   /*   position: absolute;   */
   top: 0;
   left: 0;
   background-color: #94ff98;
-  width: 1304px;
-  height: 1590px;
+  width: 100%;
+  /* height: 1590px; */
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.how-it-works2 {
-  /*   position: absolute;   */
+/*.how-it-works2 {
+  /*   position: absolute;   
   top: 11px;
   left: 576px;
   font-size: var(--font-size-5xl);
   line-height: 40px;
-}
-.choose-your-preferred {
+} **/
+/* .choose-your-preferred {
   font-weight: 500;
-}
-.step-1-choose-container,
-.to-get-started {
+} */
+.step-1-choose-container {
   /*   position: absolute;   */
   top: 104px;
   left: 652px;
@@ -784,16 +810,16 @@
   display: inline-block;
   width: 508px;
   height: 56px;
+
 }
-.to-get-started {
+/* .to-get-started {
   top: 146px;
   font-size: var(--font-size-base);
   line-height: 30px;
   width: 564px;
   height: 136px;
-}
-.step-2-fill-container,
-.we-need-to {
+} */
+.step-2-fill-container{
   /*   position: absolute;   */
   top: 399px;
   left: 144px;
@@ -803,15 +829,14 @@
   width: 508px;
   height: 56px;
 }
-.we-need-to {
+/* .we-need-to {
   top: 441px;
   left: 86px;
   font-size: var(--font-size-base);
   line-height: 30px;
   width: 566px;
   height: 177px;
-}
-.next-you-enter,
+} */
 .step-3-fill-container {
   /*   position: absolute;   */
   top: 727px;
@@ -821,16 +846,15 @@
   width: 508px;
   height: 56px;
 }
-.next-you-enter {
+/* .next-you-enter {
   top: 771px;
   left: 662px;
   font-size: var(--font-size-base);
   line-height: 30px;
   width: 545px;
   height: 154px;
-}
-.step-4-upload-container,
-.to-complete-your {
+} */
+.step-4-upload-container {
   /*   position: absolute;   */
   top: 1060px;
   left: 139px;
@@ -840,263 +864,16 @@
   width: 508px;
   height: 56px;
 }
-.to-complete-your {
+/* .to-complete-your {
   top: 1107px;
   left: 85px;
   font-size: var(--font-size-base);
   line-height: 30px;
   width: 562px;
   height: 220px;
-}
-.how-it-works-item {
-  /*   position: absolute;   */
-  top: 59.5px;
-  left: 506.5px;
-  border-top: 1px solid var(--color-gold);
-  box-sizing: border-box;
-  width: 292px;
-  height: 1px;
-}
-.how-it-works1 {
-  /*   position: absolute;   */
-  top: 3946px;
-  left: 68px;
-  width: 1304px;
-  height: 1590px;
-  font-size: var(--font-size-xl);
-  color: var(--color-black);
-}
-.grace-child {
-  /*   position: absolute;   */
-  top: 0;
-  left: 0;
-  border-radius: var(--br-5xl);
-  background-color: var(--background);
-  width: 547px;
-  height: 332px;
-}
-.grace-item {
-  /*   position: absolute;   */
-  top: 30px;
-  left: 205px;
-  width: 133px;
-  height: 133px;
-  object-fit: cover;
-}
-.grace1,
-.with-the-help {
-  /*   position: absolute;   */
-  top: 255px;
-  left: 243px;
-  line-height: 25px;
-}
-.with-the-help {
-  top: 181px;
-  left: 45px;
-  font-size: var(--font-size-base);
-  display: inline-block;
-  width: 453px;
-}
-.grace {
-  /*   position: absolute;   */
-  top: 5605px;
-  left: 129px;
-  width: 547px;
-  height: 332px;
-  font-size: var(--font-size-lgi);
-}
-.mathew-item {
-  /*   position: absolute;   */
-  top: 12px;
-  left: 213px;
-  width: 133px;
-  height: 133px;
-  object-fit: cover;
-}
-.mathew1,
-.thanks-to-the {
-  /*   position: absolute;   */
-  top: 261px;
-  left: 252px;
-  line-height: 25px;
-}
-.thanks-to-the {
-  top: 156px;
-  left: 43px;
-  font-size: var(--font-size-base);
-  text-align: center;
-  display: inline-block;
-  width: 492px;
-}
-.mathew {
-  /*   position: absolute;   */
-  top: 5605px;
-  left: 769px;
-  width: 547px;
-  height: 332px;
-  font-size: var(--font-size-lgi);
-}
-.landing-page-child1 {
-  /*   position: absolute;   */
-  bottom: 0;
-  left: 0;
-  background-color: var(--color-mediumseagreen);
-  width: 1440px;
-  height: 485px;
-}
-.contact-us {
-  /*   position: absolute;   */
-  bottom: 124px;
-  left: 91px;
-  font-size: var(--font-size-xl);
-  line-height: 40px;
-  color: var(--text-primary);
-}
-.div,
-.infosmefundgoke {
-  /*   position: absolute;   */
-  bottom: 71px;
-  left: 20px;
-  line-height: 30px;
-  display: inline-block;
-  width: 181px;
-  height: 58px;
-}
-.infosmefundgoke {
-  bottom: 0;
-  left: 0;
-  line-height: 40px;
-  width: 201px;
-  height: 40px;
-}
-.contact-details-base {
-  /*   position: absolute;   */
-  top: 6083px;
-  left: 1144px;
-  width: 201px;
-  height: 164px;
-  text-align: right;
-  color: var(--color-black);
-}
-.home1,
-.quick-links1 {
-  /*   position: absolute;   */
-  left: 0;
-}
-.home1 {
-  top: 44px;
-  line-height: 25px;
-}
-.quick-links1 {
-  bottom: 149px;
-  font-size: var(--font-size-xl);
-  line-height: 40px;
-}
-.about-sme-fund1,
-.application1,
-.how-it-works3 {
-  /*   position: absolute;   */
-  top: 84px;
-  left: 0;
-  line-height: 25px;
-}
-.application1,
-.how-it-works3 {
-  top: 124px;
-}
-.application1 {
-  top: 164px;
-}
-.quick-links {
-  text-decoration: none;
-  /*   position: absolute;   */
-  top: 6083px;
-  left: 769px;
-  width: 150px;
-  height: 189px;
-  color: inherit;
-}
-.sme-fund-kenya1 {
-  /*   position: absolute;   */
-  top: 0;
-  left: 121px;
-  line-height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 206px;
-  height: 68px;
-}
-.sme-fund-kenya2 {
-  /*   position: absolute;   */
-  top: 69px;
-  left: 122px;
-  font-size: var(--font-size-base);
-  line-height: 24px;
-  font-weight: 300;
-  color: var(--color-black);
-  text-align: left;
-  display: inline-block;
-  width: 331px;
-  height: 202px;
-}
-.sugar-cube-icon {
-  /*   position: absolute;   */
-  top: 2px;
-  left: 2px;
-  width: 96px;
-  height: 96px;
-  object-fit: cover;
-}
-.logo,
-.sme-fund-base {
-  /*   position: absolute;   */
-  top: 0;
-  left: 0;
-  width: 100px;
-  height: 100px;
-}
-.sme-fund-base {
-  top: 6059px;
-  left: 45px;
-  width: 453px;
-  height: 271px;
-  text-align: center;
-  font-size: var(--font-size-5xl);
-  color: var(--color-darkslategray);
-}
-.copyright-2016 {
-  /*   position: absolute;   */
-  bottom: 13px;
-  left: 36px;
-  font-size: var(--font-size-mini);
-  line-height: 40px;
-  color: var(--color-black);
-}
-.landing-page-child2 {
-  /*   position: absolute;   */
-  top: 0;
-  left: 0;
-  background-color: var(--background);
-  width: 1440px;
-  height: 81px;
-}
-.sme-fund-kenya3 {
-  /*   position: absolute;   */
-  top: 18px;
-  left: 103px;
-  font-size: var(--font-size-11xl);
-  line-height: 44px;
-  font-family: var(--font-sansation);
-}
-.content-text4 {
-  position: relative;
-  font-size: var(--font-size-base);
-  line-height: 25px;
-  font-family: var(--font-inter);
-  color: var(--background);
-  text-align: center;
-}
+} */
+
+
 .button4 {
   cursor: pointer;
   border: 0;

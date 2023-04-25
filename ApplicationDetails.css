@@ -284,7 +284,7 @@
 }
 .container,
 .startup-loan1 {
-  position: absolute;
+  /* position: absolute; */
   font-size: var(--font-size-5xl);
   color: var(--background);
 }
@@ -292,7 +292,7 @@
   top: 199px;
   left: 0;
   background-color: #cca829;
-  width: 400px;
+  /* width: 400px; */
   display: flex;
   flex-direction: row;
   padding: var(--padding-3xs);
@@ -457,23 +457,33 @@
   margin: 0;
 }
 .kindly-complete-this-container {
-  position: absolute;
+  /* position: absolute; */
   top: 1035px;
   left: 311px;
   font-size: var(--font-size-xl);
   line-height: 40px;
   display: inline-block;
-  width: 819px;
+  width: 100%;
   height: 50px;
 }
+
+.personal-information-form {
+  position: absolute; 
+ /* top: 1125px; */
+ left: 150px;
+ width: 1024px;
+ height: 1086px;
+ font-size: var(--font-size-xl);
+ color: var(--text-primary);
+}
 .personal-information-form-child {
-  position: absolute;
+   position: absolute; 
   top: 0;
   left: 0;
   border-radius: var(--br-5xl);
   background-color: var(--background);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  width: 1024px;
+  width: 100%;
   height: 1086px;
 }
 .personal-information {
@@ -808,31 +818,25 @@
   height: 650px;
   font-size: var(--font-size-base);
 }
-.personal-information-form {
-  position: absolute;
-  top: 1125px;
-  left: 220px;
-  width: 1024px;
-  height: 1086px;
-  font-size: var(--font-size-xl);
-  color: var(--text-primary);
-}
-.application-details-item {
-  position: absolute;
-  top: 2245px;
+
+ .application-details-item {
+   position: absolute; 
+   top: 1300px; 
   left: 0;
-  width: 1444px;
-  height: 407px;
+  width: 100%;
+  height: 100px;
   object-fit: cover;
-}
-.continue-the-application {
+  text-align: center;
+  background-color: #cca829;
+} 
+/* .continue-container{
   position: absolute;
   top: 2349px;
   left: 492px;
   font-size: var(--font-size-11xl);
   line-height: 40px;
   color: var(--background);
-}
+} */
 .kindly-complete-this-container1 {
   position: absolute;
   top: 2419px;
@@ -842,6 +846,15 @@
   display: inline-block;
   width: 650px;
   height: 39px;
+}
+
+.business-information-form {
+  position: absolute;
+  top: 1400px;  
+  left: 150px;
+  width: 1024px;
+  height: 1188px;
+  color: var(--text-primary);
 }
 .business-information-form-child {
   position: absolute;
@@ -1058,14 +1071,16 @@
 .textarea13 {
   left: 602px;
 }
-.business-information-form {
+.loan-details-form {
   position: absolute;
-  top: 2704px;
-  left: 220px;
+  top: 2604px;
+  left: 150px;
   width: 1024px;
-  height: 1188px;
+  height: 1075px;
+  font-size: var(--font-size-lgi);
   color: var(--text-primary);
 }
+
 .loan-details-form-child {
   position: absolute;
   top: 0;
@@ -1186,15 +1201,7 @@
   width: 753px;
   height: 82px;
 }
-.loan-details-form {
-  position: absolute;
-  top: 4094px;
-  left: 220px;
-  width: 1024px;
-  height: 1075px;
-  font-size: var(--font-size-lgi);
-  color: var(--text-primary);
-}
+
 .application-details-inner {
   position: absolute;
   bottom: 0;
@@ -1351,3 +1358,4 @@
   color: var(--color-black);
   font-family: var(--font-inter);
 }
+
