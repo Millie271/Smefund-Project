@@ -1,29 +1,3 @@
-<?php
-
-@include 'config.php';
-if(isset($_POST['submit'])){
-
-    $name = mysqli_real_escape_string($conn, $_POST['username']);
-    $id_no = mysqli_real_escape_string($conn, $_POST['identification']);
-    $pass = md5( $_POST['password']);
-    $cpass = md5( $_POST['cpassword']);
-
-    $select="SELECT * FROM user_form WHERE identification = '$id_no' && password = '$pass'";
-    $result = mysqli_query($conn, $select);
-
-    if(mysqli_num_rows($result) > 0){
-        $row = mysqli_fetch_array($result);
-
-
-    }
-
-
-};
-
-?>
-
-
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -43,7 +17,17 @@ if(isset($_POST['submit'])){
                 <h1>Login to your account</h1>
             </div>
             <div class="col-sm-7 h-100">
-                <form action="" method="post" class="m-auto">
+                <form action="functions/login.php" method="post" class="m-auto">
+                    <?php
+                        if(isset($_GET['success'])){
+                            echo "<div class='alert alert-success'>{$_GET['success']}</div>";
+                        }
+                    ?>
+                    <?php
+                        if(isset($_GET['error'])){
+                            echo "<div class='alert alert-danger'>{$_GET['error']}</div>";
+                        }
+                    ?>
                     <div class="col-sm-12 d-flex justify-content-around">
                         <img src="SMEFund logo.png" alt="logo" class="m-auto" align-items="left">
                     </div>
@@ -52,11 +36,11 @@ if(isset($_POST['submit'])){
                     <p class="text-center">Enter the details below to continue your application</p>
                     <div class="form-group">
                         <label for="username">ID Number</label>
-                        <input type="number" name="username" id="username" class="form-control" placeholder=" e.g. 37925382  ">
+                        <input type="number" name="username" id="username" class="form-control" placeholder=" e.g. 37925382  " required>
                     </div>
                     <div class="form-group">
                         <label for="password">Password</label>
-                        <input type="password" name="password" id="password" class="form-control" placeholder="Enter Password">
+                        <input type="password" name="password" id="password" class="form-control" placeholder="Enter Password" required>
                     </div>
                     <div class="form-group">
                         <a href="04_ApplicationDetails.html"><input type="submit" value="Login" class="btn btn-primary w-100">
@@ -64,7 +48,7 @@ if(isset($_POST['submit'])){
                     
                         </div>
                     <div class="form-group">
-                        <p>Not registered ? <a href="03_AccountPage.html">Create account</a></p>
+                        <p>Not registered ? <a href="03_AccountPage.php">Create account</a></p>
                     </div>
                 </form>
             </div>
