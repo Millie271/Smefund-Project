@@ -1,0 +1,218 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="initial-scale=1, width=device-width"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+        <link
+        href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!-- CSS -->
+        <link rel="stylesheet" href="./global.css"/>
+
+        <title>AdminPortal</title>
+    </head>
+    <body>
+
+
+        <!-- Sidebar -->
+        <Section id="sidebar">
+            <a href="#" class="brand">
+                <img src="images/SMEFund logo.png" style="width: 100px; object-fit: scale-down;" alt="">
+                <span class="text">SMEPortal</span>
+            </a>
+            <ul class="side-menu top">
+                <li class="active">
+                    <a href="#">
+                        <i class='bx bxs-dashboard'></i>
+                        Dashboard
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-user-circle'></i>Applications</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-star'></i>
+                        Approved</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bxs-report'></i>Reports</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-message-rounded-dots'></i>
+                        Messaging</a>
+                </li>
+            </ul>
+            <ul class="side-menu">
+                <li>
+                    <a href="#">
+                        <i class='bx bx-cog'></i>
+                        Settings</a>
+                </li>
+                <li>
+                    <a href="#" class="logout">
+                        <i class='bx bx-log-out-circle'></i>Logout</a>
+                </li>
+            </Section>
+
+
+            <!-- Navbar -->
+            <section id="content">
+                <nav>
+                    <i class='bx bx-menu'></i>
+                    <a href="#">
+                        <class='nav-link'>Categories</a>
+                        <form action="#">
+                            <div class="form-input">
+                                <input type="search" placeholder="Search...">
+                                <button type="submit" class="search-btn">
+                                    <i class='bx bx-search'></i>
+                                </button>
+                            </div>
+                        </form>
+
+                        <a href="#" class="notification">
+                            <i class='bx bxs-bell'></i>
+                            <span class="num">8</span>
+                        </a>
+                        <a href="#" class="profile">
+                            <img src="images/woman2.jpg" alt="people.png">
+                        </a>
+                    </nav>
+
+                    <!-- Main -->
+                    <main class="dashmain">
+                        <div class="head-title">
+                            <div class="left">
+                                <h1>
+                                    Dashboard</h1>
+                                <ul class="breadcrumb">
+                                    <li>
+                                        <a href="#">Dashboard</a>
+                                    </li>
+                                    <li>
+                                        <i class='bx bxs-chevron-right'></i>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="active">Home</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#" class="btn-download">
+                                <i class='bx bxs-download'></i>
+                                <span class="text">
+                                    Download PDF</span>
+                            </a>
+                        </div>
+
+                        <ul class="row w-100 box-info">
+                            <li>
+                                <i class='bx bxs-calendar-check'></i>
+                                <span class="text">
+                                    <h3>102</h3>
+                                    <p>New Applications</p>
+                                </span>
+                            </li>
+                            <li>
+                                <i class='bx bxs-group'></i>
+                                <span class="text">
+                                    <h3>12,834</h3>
+                                    <p>Businesses Promoted</p>
+                                </span>
+                            </li>
+
+                            <li>
+                                <i class='bx bxs-dollar-circle'></i>
+                                <span class="text">
+                                    <h3>5M</h3>
+                                    <p>Loans Granted</p>
+                                </span>
+                            </li>
+                        </ul>
+
+                        <!-- table -->
+                        <div class="table-data">
+                            <div class="order">
+                                <div class="head">
+                                    <h3>Applications</h3>
+                                    <i class='bx bx-search'></i>
+                                    <i class='bx bx-filter'></i>
+                                </div>
+                            <div class="table-responsive"> 
+
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Sr NO</th>
+                                            <th>Name</th>
+                                            <th>Date Applied</th>
+                                            <th>Amount</th>
+                                            <th>Package</th>
+                                            <th>Status</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>0001</td>
+                                            <td>
+                                                <p>John Doe</p>
+                                            </td>
+                                            <td>01-10-2021</td>
+                                            <td>500,000</td>
+                                            <td>Equipment Financing</td>
+                                            <td>
+                                                <span class="status completed">Approved</span>
+                                            </td>
+                                            <td>
+                                                <button>View</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>0002</td>
+                                            <td>
+                                                <p>Grace Lou</p>
+                                            </td>
+                                            <td>01-10-2021</td>
+                                            <td>500,000</td>
+                                            <td>Startup Loan</td>
+                                            <td>
+                                                <span class="status pending">Pending</span>
+                                            </td>
+                                            <td>
+                                                <button>View</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>0003</td>
+                                            <td>
+                                                <p>Grace Lou</p>
+                                            </td>
+                                            <td>01-10-2021</td>
+                                            <td>500,000</td>
+                                            <td>Startup Loan</td>
+                                            <td>
+                                                <span class="status rejected">Rejected</span>
+                                            </td>
+                                            <td>
+                                                <button>View</button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        </main>
+                    </section>
+
+
+                    <script src="scripts.js"></script>
+                </body>
+            </html>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+

@@ -1,35 +1,3 @@
-<?php
-
-@include 'config.php';
-if(isset($_POST['submit'])){
-
-    $name = mysqli_real_escape_string($conn, $_POST['username']);
-    $id_no = mysqli_real_escape_string($conn, $_POST['identification']);
-    $pass = md5( $_POST['password']);
-    $cpass = md5( $_POST['cpassword']);
-
-    $select="SELECT * FROM user_form WHERE identification = '$id_no' && password = '$pass'";
-    $result = mysqli_query($conn, $select);
-
-    if(mysqli_num_rows($result) > 0){
-
-        $error[] ='user already exists';
-    }else{
-
-        if($pass != $cpass){
-            $error[]='password not matched!';
-        }else {
-            $insert ="INSERT INTO user_form (username, identification, password) VALUES ('$name,'$id_no','$pass')";
-        mysqli_query($conn, $insert);
-        header("Location:loginpage.php");
-        }
-
-    }
-
-
-};
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -50,17 +18,14 @@ if(isset($_POST['submit'])){
             </div>
             <div class="col-sm-7 h-100">
             
-                <form action="" method="post" class="m-auto">
+                <form action="functions/signup.php" method="post" class="m-auto">
 
-<?php 
-if(isset($error)){
-foreach($error as $error){
-    echo '<span class="error-msg">'.$error.'</span>';
-};
+                    <?php 
+                    if(isset($_GET['error'])){
+                         echo "<div class='alert alert-danger'>{$_GET['error']}</div>"; 
+                        }
 
-};
-
-?>
+                    ?> 
 
 
                     <div class="col-sm-12 d-flex justify-content-around">
@@ -101,7 +66,7 @@ foreach($error as $error){
                     </div>
                     
                     <div class="form-group">
-                        <p>Already registered? <a href="02_LoginPage.html">Login instead</a></p>
+                        <p>Already registered? <a href="02_LoginPage.php">Login instead</a></p>
                     </div>
                 </form>
             </div>
