@@ -18,7 +18,7 @@
             </div>
             <div class="col-sm-7 h-100">
                 <form action="functions/login.php" method="post" class="m-auto">
-                    <?php
+                      <?php
                         if(isset($_GET['success'])){
                             echo "<div class='alert alert-success'>{$_GET['success']}</div>";
                         }
@@ -27,12 +27,12 @@
                         if(isset($_GET['error'])){
                             echo "<div class='alert alert-danger'>{$_GET['error']}</div>";
                         }
-                    ?>
+                    ?>  
                     <div class="col-sm-12 d-flex justify-content-around">
                         <img src="SMEFund logo.png" alt="logo" class="m-auto" align-items="left">
                     </div>
 
-                    <h2 class="text-center">Welcome back Millie</h2>
+                    <h2 class="text-center">Welcome back</h2>
                     <p class="text-center">Enter the details below to continue your application</p>
                     <div class="form-group">
                         <label for="username">ID Number</label>
@@ -57,5 +57,8 @@
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 </html>
+
+
+
 
 

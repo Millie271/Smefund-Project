@@ -16,6 +16,14 @@ error_reporting(E_ALL);
         $records -> PAddress = $_POST['address'];
         $records -> Email = $_POST['emailaddress'];
         $records -> JobTitle = $_POST['jobtitle'];
+        $records -> Businessname = $_POST['Businessname'];
+        $records -> Goods = $_POST['Goods'];
+        $records -> Phonenumber = $_POST['Phonenumber'];
+        $records -> Address = $_POST['Address'];
+        $records -> Emailaddress = $_POST['Emailaddress'];
+        $records -> Businesstype = $_POST['Businesstype'];
+        $records -> Grosssales = $_POST['Grosssales'];
+
         // $gender = "";
         // if($_POST['gender'] == "on"){
         //     $gender = "Male";
@@ -30,7 +38,7 @@ error_reporting(E_ALL);
         if($save){
             // echo "<script>alert('application was successfull')</script>";
             // echo "<script>setTimeout(() => { history.go(-1) }, 1500)</script>";
-            header("Location: ../04_ApplicationDetails.html");
+            header("Location: ../06_UploadSoloDocs.html");
         }else{
             // echo "<script>alert('Oops! something went wrong, please try again.')</script>";
             // echo "<script>setTimeout(() => { history.go(-1) }, 1500)</script>";

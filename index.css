@@ -310,16 +310,17 @@
   top: 392px;
   left: 37px;
   letter-spacing: 1px;
-  line-height: 20px;
+  /* line-height: 20px; */
   display: inline-block;
   width: 364px;
-  height: 54px;
+  /* height: 54px; */
 }
 .group-empowerment p{
   /*   position: absolute;   */
   top: 392px;
   left: 37px;
-  font-size: var(--font-size-sm);
+  font-size:16px;
+  font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 0px;
   line-height: 24px;
   display: inline-block;
@@ -366,7 +367,7 @@
   left: 35px;
   width: 366px;
   height: 326px;
-  padding-top:50px;
+  /* padding-top:50px; */
   object-fit: cover;
 }
 .individual-empowerment1 {
@@ -678,6 +679,7 @@
   line-height: 30px;
   font-weight: 500;
   padding-left: 20px;
+  margin-top: 5px;
 }
 .title-deeds-log-container {
   top: 89px;
@@ -745,11 +747,11 @@
   left: 642px;
   /*box-shadow: 0-2px 0#002d18 inset;*/
   overflow: hidden;
-  display: flex;
+  /* display: flex; */
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 57px;
+  gap: 20px;
 }
 .empower-your-chama {
   /*   position: absolute;   */
@@ -810,6 +812,7 @@
   display: inline-block;
   width: 508px;
   height: 56px;
+  text-align: left;
 
 }
 /* .to-get-started {
@@ -845,6 +848,7 @@
   display: inline-block;
   width: 508px;
   height: 56px;
+  text-align: left;
 }
 /* .next-you-enter {
   top: 771px;

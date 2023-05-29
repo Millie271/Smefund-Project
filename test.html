@@ -151,3 +151,39 @@
 	</body>
 	
 	</html>
+
+
+
+    <tbody>
+        <?php
+        $conn = new Database();
+        $db = $conn -> connection;
+        
+        $records = new Records();
+        $record = $records -> getRecords();
+        
+        if($record){
+            foreach($record as $record){
+    ?>
+    <tr>
+        <td><?php echo $record['id'] ?></td>
+        <td><?php echo $record['Fullname'] ?></td>
+        <td><?php echo $record['dateAdded'] ?></td>
+        <td><?php echo $record['Phone'] ?></td>
+        <td><?php echo $record[''] ?></td>
+        <td>
+                <span class="status rejected">Rejected</span>
+            </td>
+            <td>
+                <button>View</button>
+            </td>
+    </tr>
+    <?php
+            }
+        }else{
+            <tr>
+                <td colspan='7'>No results for this records</td>
+            </tr>
+        }
+    ?>
+    </tbody>

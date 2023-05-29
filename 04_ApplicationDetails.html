@@ -26,7 +26,7 @@
             <a href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a href="">About SME Fund</a>
+            <a href="05_packages.html">Packages</a>
           </li>
           <li class="nav-item">
             <a href="04_ApplicationDetails.html">Application</a>
@@ -49,9 +49,7 @@
   </div>
   <div class="personal-information-form">
     <div class="personal-information-form-child">
-      <b class="personal-information">Personal information</b><button class="button13">
-        <b class="content-text10">Save</b><img class="icon-start8" alt="" src="./public/icon-start11.svg" />
-      </button>
+      <b class="personal-information">Personal information</b>
       <div class="text-area-personal-info">
         <form action="functions/records.php" method="post">
           <div class="row">
@@ -60,7 +58,7 @@
               <input type="text" name="Fullname" id="Fullname" class="form-control" placeholder="Enter Fullname" required>
             </div>
             <div class="form-group col-sm-6">
-              <label for="idnumber">Full Name</label>
+              <label for="idnumber">ID Number</label>
               <input type="number" name="idnumber" id="idnumber" class="form-control" placeholder="Enter Nation ID Number" required>
             </div>
           </div>
@@ -104,273 +102,103 @@
               </div>
             </div>
           </div>
+          <h4>Business Information</h4>
+          <div class="row">
+            <div class="form-group col-sm-6">
+              <label for="Businessname">Business Name</label>
+              <input type="text" name="Businessname" id="Businessname" class="form-control" placeholder="Enter Business Name" required>
+            </div>
+            <div class="form-group col-sm-6">
+              <label for="Goods">Goods or services offered</label>
+              <input type="text" name="Goods" id="Goods" class="form-control" placeholder="" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-sm-6">
+              <label for="Phonenumber">Phone Number</label>
+              <input type="tel" name="Phonenumber" id="Phonenumber" class="form-control" placeholder="Enter Phone Number" required>
+            </div>
+            <div class="form-group col-sm-6">
+              <label for="Address">Physical Address</label>
+              <input type="text" name="Address" id="Address" class="form-control" placeholder="Enter Physical Address" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-sm-6">
+              <label for="Emailaddress">Email</label>
+              <input type="email" name="Emailaddress" id="Emailaddress" class="form-control" placeholder="Enter Email Address" required>
+            </div>
+            <div class="form-group col-sm-6">
+              <label for="Businesstype">Business Type</label>
+              <input type="text" name="Businesstype" id="Businesstype" class="form-control" placeholder="e.g partnership" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-sm-6">
+              <label for="Grosssales">Annual Gross sales</label>
+              <input type="int" name="Grosssales" id="Grosssales" class="form-control" placeholder="" required>
+            </div>
+
+            <h4>Loan Details</h4>
+            <div class="row">
+              <div class="form-group col-sm-6">
+                <label for="Fullname">Guarantor 1</label>
+                <input type="text" name="Fullname" id="Fullname" class="form-control" placeholder="Enter Fullname" >
+              </div>
+              <div class="form-group col-sm-6">
+                <label for="idnumber">ID Number</label>
+                <input type="number" name="idnumber" id="idnumber" class="form-control" placeholder="Enter Nation ID Number" >
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col-sm-6">
+                <label for="phonenumber">Phone Number</label>
+                <input type="tel" name="phonenumber" id="phonenumber" class="form-control" placeholder="Enter Phone Number" >
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="form-group col-sm-6">
+                <label for="Fullname">Guarantor 2</label>
+                <input type="text" name="Fullname" id="Fullname" class="form-control" placeholder="Enter Fullname" >
+              </div>
+              <div class="form-group col-sm-6">
+                <label for="idnumber">ID Number</label>
+                <input type="number" name="idnumber" id="idnumber" class="form-control" placeholder="Enter Nation ID Number" >
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col-sm-6">
+                <label for="phonenumber">Phone Number</label>
+                <input type="tel" name="phonenumber" id="phonenumber" class="form-control" placeholder="Enter Phone Number" >
+              </div>
+            </div>
+      <p>By submitting this application, I confirm that the information
+        provided is accurate and complete to the best of my knowledge. I
+        authorize the lender to verify the information and to obtain credit
+        reports in connection with this application.</p>
+    
           <div class="form-group">
             <input type="submit" value="Save Details" class="btn btn-primary">
           </div>
         </form>
+      
       </div>
     </div>
   </div>
 
-  <div class="application-details-item">
-    <h3>Continue the application below</h3>
-    <p>Kindly complete this form, by filling in the details, ensure you go
-      through all the steps</p>
+  <div class="button17">
+    <a href="06_UploadSoloDocs.html"><b class="content-text16">Upload Documents</b><img class="icon-start8" alt=""
+        src="./public/icon-start15.svg" /></a>
   </div>
-  <div class="business-information-form">
-    <div class="business-information-form-child">
-      <b class="business-information">Business information</b><b class="operating-since">Operating since:</b><b
-        class="till-date">Till date:</b><button class="button14">
-        <b class="content-text10">Save</b><img class="icon-start8" alt=""
-          src="./public/icon-start12.svg" /></button><button class="button15">
-        <b class="content-text10">Previous</b><img class="icon-start8" alt="" src="./public/icon-start13.svg" />
-      </button>
-      <div class="business-information-form-item"></div>
-      <div class="textarea7">
-        <div class="group-form">
-          <div class="content1">
-            <b class="content-label7">Business Name</b><b class="content-hint">Hint text</b>
-          </div>
-          <div class="error"><b class="content-body">Error message</b></div>
-          <input class="building-blockstext-inputinp7" type="text" maxlength="{20}" required />
-        </div>
-        <b class="content-hint">You can enter up to 200 characters</b>
-      </div>
-      <div class="textarea8">
-        <div class="group-form">
-          <div class="content1">
-            <b class="content-label7">Goods or services Offered</b><b class="content-hint">Hint text</b>
-          </div>
-          <div class="error"><b class="content-body">Error message</b></div>
-          <input class="building-blockstext-inputinp" type="text" maxlength="{20}" />
-        </div>
-        <b class="content-hint">You can enter up to 200 characters</b>
-      </div>
-      <div class="textarea9">
-        <div class="group-form">
-          <div class="content1">
-            <b class="content-label7">Business Type</b><b class="content-hint">Hint text</b>
-          </div>
-          <div class="error"><b class="content-body">Error message</b></div>
-          <input class="building-blockstext-inputinp7" type="text" placeholder="e.g. Partnership" maxlength="{20}" />
-        </div>
-        <b class="content-hint">You can enter up to 200 characters</b>
-      </div>
-      <div class="textarea10">
-        <div class="group-form">
-          <div class="content1">
-            <b class="content-label7">Phone no./ Email</b><b class="content-hint">Hint text</b>
-          </div>
-          <div class="error"><b class="content-body">Error message</b></div>
-          <input class="building-blockstext-inputinp" type="number" maxlength="{20}" />
-        </div>
-        <b class="content-hint">You can enter up to 200 characters</b>
-      </div>
-      <div class="textarea11">
-        <div class="group-form">
-          <div class="content11">
-            <b class="content-label7">Business Location</b><b class="content-hint">Hint text</b>
-          </div>
-          <div class="error11"><b class="content-body">Error message</b></div>
-          <div class="building-blockstext-inputinp11">
-            <b class="content-input">
-              <p class="kindly-complete-this">
-                A Martini. Shaken, Not Stirred.
-              </p>
-              <p class="kindly-complete-this">&nbsp;</p>
-              <p class="kindly-complete-this">&nbsp;</p>
-              <p class="kindly-complete-this">&nbsp;</p>
-            </b>
-          </div>
-        </div>
-        <b class="content-hint23">You can enter up to 200 characters</b>
-      </div>
-      <div class="textarea12">
-        <div class="group-form">
-          <div class="content11">
-            <b class="content-label7">Annual Gross Sales</b><b class="content-hint">Hint text</b>
-          </div>
-          <div class="error11"><b class="content-body">Error message</b></div>
-          <div class="building-blockstext-inputinp12">
-            <b class="content-input">
-              <p class="kindly-complete-this">
-                A Martini. Shaken, Not Stirred.
-              </p>
-              <p class="kindly-complete-this">&nbsp;</p>
-              <p class="kindly-complete-this">&nbsp;</p>
-              <p class="kindly-complete-this">&nbsp;</p>
-            </b>
-          </div>
-        </div>
-        <b class="content-hint23">You can enter up to 200 characters</b>
-      </div>
-      <div class="textarea13">
-        <div class="group-form">
-          <div class="content11">
-            <b class="content-label7">Outstanding Business Debt</b><b class="content-hint">Hint text</b>
-          </div>
-          <div class="error11"><b class="content-body">Error message</b></div>
-          <div class="building-blockstext-inputinp12">
-            <b class="content-input">
-              <p class="kindly-complete-this">
-                A Martini. Shaken, Not Stirred.
-              </p>
-              <p class="kindly-complete-this">&nbsp;</p>
-              <p class="kindly-complete-this">&nbsp;</p>
-              <p class="kindly-complete-this">&nbsp;</p>
-            </b>
-          </div>
-        </div>
-        <b class="content-hint23">You can enter up to 200 characters</b>
-      </div>
-    </div>
-  </div>
-  <div class="loan-details-form">
-    <div class="loan-details-form-child">
-      <b class="loan-details">Loan Details</b>
-      <div class="kindly-complete-this-container2">
-        <p class="kindly-complete-this">
-          Kindly complete this form, by filling in the details, ensure you go
-          through all the steps
-        </p>
-      </div>
-      <div class="textarea14">
-        <div class="group-form">
-          <div class="content11">
-            <b class="content-label7">Guarantor 1</b><b class="content-hint">Hint text</b>
-          </div>
-          <div class="error11"><b class="content-body">Error message</b></div>
-          <div class="building-blockstext-inputinp12">
-            <b class="content-input">
-              <p class="kindly-complete-this">
-                A Martini. Shaken, Not Stirred.
-              </p>
-              <p class="kindly-complete-this">&nbsp;</p>
-              <p class="kindly-complete-this">&nbsp;</p>
-              <p class="kindly-complete-this">&nbsp;</p>
-            </b>
-          </div>
-        </div>
-        <b class="content-hint23">You can enter up to 200 characters</b>
-      </div>
-      <div class="textarea15">
-        <div class="group-form">
-          <div class="content11">
-            <b class="content-label7">Phone No.</b><b class="content-hint">Hint text</b>
-          </div>
-          <div class="error11"><b class="content-body">Error message</b></div>
-          <div class="building-blockstext-inputinp12">
-            <b class="content-input">
-              <p class="kindly-complete-this">
-                A Martini. Shaken, Not Stirred.
-              </p>
-              <p class="kindly-complete-this">&nbsp;</p>
-              <p class="kindly-complete-this">&nbsp;</p>
-              <p class="kindly-complete-this">&nbsp;</p>
-            </b>
-          </div>
-        </div>
-        <b class="content-hint23">You can enter up to 200 characters</b>
-      </div>
-      <div class="textarea16">
-        <div class="group-form">
-          <div class="content11">
-            <b class="content-label7">ID number</b><b class="content-hint">Hint text</b>
-          </div>
-          <div class="error11"><b class="content-body">Error message</b></div>
-          <div class="building-blockstext-inputinp12">
-            <b class="content-input">
-              <p class="kindly-complete-this">
-                A Martini. Shaken, Not Stirred.
-              </p>
-              <p class="kindly-complete-this">&nbsp;</p>
-              <p class="kindly-complete-this">&nbsp;</p>
-              <p class="kindly-complete-this">&nbsp;</p>
-            </b>
-          </div>
-        </div>
-        <b class="content-hint23">You can enter up to 200 characters</b>
-      </div>
-      <div class="textarea17">
-        <div class="group-form">
-          <div class="content11">
-            <b class="content-label7">Guarantor 2</b><b class="content-hint">Hint text</b>
-          </div>
-          <div class="error11"><b class="content-body">Error message</b></div>
-          <div class="building-blockstext-inputinp12">
-            <b class="content-input">
-              <p class="kindly-complete-this">
-                A Martini. Shaken, Not Stirred.
-              </p>
-              <p class="kindly-complete-this">&nbsp;</p>
-              <p class="kindly-complete-this">&nbsp;</p>
-              <p class="kindly-complete-this">&nbsp;</p>
-            </b>
-          </div>
-        </div>
-        <b class="content-hint23">You can enter up to 200 characters</b>
-      </div>
-      <div class="textarea18">
-        <div class="group-form">
-          <div class="content11">
-            <b class="content-label7">Phone No.</b><b class="content-hint">Hint text</b>
-          </div>
-          <div class="error11"><b class="content-body">Error message</b></div>
-          <div class="building-blockstext-inputinp12">
-            <b class="content-input">
-              <p class="kindly-complete-this">
-                A Martini. Shaken, Not Stirred.
-              </p>
-              <p class="kindly-complete-this">&nbsp;</p>
-              <p class="kindly-complete-this">&nbsp;</p>
-              <p class="kindly-complete-this">&nbsp;</p>
-            </b>
-          </div>
-        </div>
-        <b class="content-hint23">You can enter up to 200 characters</b>
-      </div>
-      <div class="textarea19">
-        <div class="group-form">
-          <div class="content11">
-            <b class="content-label7">ID number</b><b class="content-hint">Hint text</b>
-          </div>
-          <div class="error11"><b class="content-body">Error message</b></div>
-          <div class="building-blockstext-inputinp12">
-            <b class="content-input">
-              <p class="kindly-complete-this">
-                A Martini. Shaken, Not Stirred.
-              </p>
-              <p class="kindly-complete-this">&nbsp;</p>
-              <p class="kindly-complete-this">&nbsp;</p>
-              <p class="kindly-complete-this">&nbsp;</p>
-            </b>
-          </div>
-        </div>
-        <b class="content-hint23">You can enter up to 200 characters</b>
-      </div>
-      <div class="loan-details-form-item"></div>
-      <div class="by-submitting-this">
-        By submitting this application, I confirm that the information
-        provided is accurate and complete to the best of my knowledge. I
-        authorize the lender to verify the information and to obtain credit
-        reports in connection with this application.
-      </div>
-      <div class="button16">
-        <b class="content-text16">Save</b><img class="icon-start8" alt="" src="./public/icon-start14.svg" />
-      </div>
-      <div class="button17">
-        <a href="05_UploadSoloDocs.html"><b class="content-text16">Upload Documents</b><img class="icon-start8" alt=""
-            src="./public/icon-start15.svg" /></a>
-      </div>
-      <div class="button18">
-        <b class="content-text16">Previous</b><img class="icon-start8" alt="" src="./public/icon-start16.svg" />
-      </div>
-    </div>
-  </div>
+
+
+
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+  integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous">
+</script>
 
 </html>
 <style>

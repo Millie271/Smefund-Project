@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,11 +19,15 @@
             <div class="col-sm-7 h-100">
             
                 <form action="functions/signup.php" method="post" class="m-auto">
-                    <?php
-                        if(isset($_GET['error'])){
-                            echo "<div class='alert alert-danger'>{$_GET['error']}</div>";
+
+                    <?php 
+                    if(isset($_GET['error'])){
+                         echo "<div class='alert alert-danger'>{$_GET['error']}</div>"; 
                         }
-                    ?>
+
+                    ?> 
+
+
                     <div class="col-sm-12 d-flex justify-content-around">
                         <img src="SMEFund logo.png" alt="logo" class="m-auto" align-items="left">
                     </div>
@@ -32,23 +37,23 @@
                     <div class="row" id="no-shadow">
                         <div class="form-group col-sm-6">
                             <label for="username">Full Name</label>
-                            <input type="username" name="username" id="username" class="form-control" placeholder=" e.g Milly Cheptoo " required>
+                            <input type="username" name="username" id="username" class="form-control" placeholder=" e.g Milly Cheptoo ">
     
                         </div>
                         <div class="form-group col-sm-6">
                             <label for="identification">ID Number</label>
-                            <input type="number" name="identification" id="identification" class="form-control" placeholder=" e.g. 37925382  " required>
+                            <input type="number" name="identification" id="identification" class="form-control" placeholder=" e.g. 37925382  ">
                         </div>
                     </div>
 
                     <div class="row" id="no-shadow">
                         <div class="form-group col-sm-6">
                             <label for="password">Password</label>
-                            <input type="password" name="password" id="password" class="form-control" placeholder="Enter Password" required>
+                            <input type="password" name="password" id="password" class="form-control" placeholder="Enter Password">
                         </div>
                         <div class="form-group col-sm-6">
                             <label for="confirm password">Confirm Password</label>
-                            <input type="password" name="cpassword" id="cpassword" class="form-control" placeholder="  " required>
+                            <input type="password" name="cpassword" id="cpassword" class="form-control" placeholder="  ">
                         </div>
                     </div>
                     <small class="terms " >
